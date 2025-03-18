@@ -9,4 +9,4 @@ plt.imshow(image_rgb)
 plt.axis("off")
 plt.show()
 
-#333333
+#
