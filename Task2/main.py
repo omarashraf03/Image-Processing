@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 image = cv2.imread("cameraman.bmp", cv2.IMREAD_GRAYSCALE)
 
 plt.imshow(image, cmap="gray")
+plt.title("Original Image")
 plt.axis("off")
 plt.show()
 
@@ -18,6 +19,7 @@ preprocessed_image = image * ((-1) ** (x + y))
 
 
 plt.imshow(preprocessed_image, cmap="gray")
+plt.title("Preprocessed Image")
 plt.axis("off")
 plt.show()
 
